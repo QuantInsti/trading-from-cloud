@@ -30,7 +30,7 @@ fi
 
 #setting up vnc server
 
-touch $SCRIPT_HOME/.Xresources 
+touch $SCRIPT_HOME/.Xresources && touch $SCRIPT_HOME/.Xauthority
 
 if [ ! -f $SCRIPT_HOME/.vnc/passwd ]; then 
 	printf "\nEnter Password for VNC Dekstop\n" 
