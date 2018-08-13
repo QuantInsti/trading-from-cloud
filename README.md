@@ -5,7 +5,7 @@
 
 Run the below command and enter passwords for vncserver and jupyter notebook during installation. 
 
-`curl https://raw.githubusercontent.com/QuantInsti/trading-from-cloud/master/vncserver-jupyternotebook-setup-ubuntu-16.04.sh | bash` 
+`bash -c "$(curl  https://raw.githubusercontent.com/QuantInsti/trading-from-cloud/master/vncserver-jupyternotebook-setup-ubuntu-16.04.sh)"` 
 
 
 
