@@ -1,7 +1,8 @@
 # trading-from-cloud
-### script to setup VNC server, jupyter notebook and other python packaages.
+### 1. You can use already build AMI available on AWS. <link>
+### 2. You can use script to download and install everything on your ubuntu server. (commands below)
 
-#### 1. To setup
+#### - 1. To setup
 
 Run the below command and enter passwords for vncserver and jupyter notebook during installation. 
 
@@ -9,8 +10,8 @@ Run the below command and enter passwords for vncserver and jupyter notebook dur
 
 
 
-#### 2. To change password of VNC server (optional)
+#### - 2. To change password of VNC server (optional)
 `vncpasswd`
 
-#### 3. To change password of jupyter notebook (optional)
+#### - 3. To change password of jupyter notebook (optional)
 `jupyter notebook password`
