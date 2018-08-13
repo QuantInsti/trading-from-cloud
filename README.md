@@ -17,4 +17,7 @@ Run the below command and enter passwords for vncserver and jupyter notebook dur
 ####  c. To change password of jupyter notebook (optional)
 `jupyter notebook password`
 
-## Use
+## Usage
+VNC Client - <server ip/host>:5901 (any VNC client)
+
+Jupyter Notebook - <server ip/host>:8888 (Chrome / firefox browser)
