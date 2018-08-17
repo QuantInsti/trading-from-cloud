@@ -121,10 +121,9 @@ sudo systemctl daemon-reload \
 #setting up TWS and IBridgePy
 
 #TWS
-curl -s -O https://download2.interactivebrokers.com/installers/tws/latest/tws-latest-linux-x64.sh
-#https://download2.interactivebrokers.com/installers/tws/stable/tws-stable-linux-x64.sh
+curl -s -O https://download2.interactivebrokers.com/installers/tws/stable/tws-stable-linux-x64.sh
 
-chmod a+x tws-latest-linux-x64.sh
+chmod a+x tws-stable-linux-x64.sh
 echo "n" | ./tws-latest-linux-x64.sh
 
 #ibridgepy
