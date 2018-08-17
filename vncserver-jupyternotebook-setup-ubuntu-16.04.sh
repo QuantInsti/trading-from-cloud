@@ -124,7 +124,7 @@ sudo systemctl daemon-reload \
 curl -s -O https://download2.interactivebrokers.com/installers/tws/stable/tws-stable-linux-x64.sh
 
 chmod a+x tws-stable-linux-x64.sh
-echo "n" | ./tws-latest-linux-x64.sh
+echo "n" | ./tws-stable-linux-x64.sh
 
 #ibridgepy
 mkdir -p i-bridge-py && curl -s http://www.ibridgepy.com/wp-content/uploads/2018/08/IBridgePy_Ubuntu_Python27_64.zip -o i-bridge-py/IBridgePy_Ubuntu_Python27_64.zip
