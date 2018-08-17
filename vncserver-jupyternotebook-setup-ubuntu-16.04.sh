@@ -11,7 +11,7 @@ printf "\nInstalling required packages\n"
 
 sudo apt update && sudo apt -y install xfce4 xfce4-goodies xfonts-base xfonts-75dpi xfonts-100dpi tightvncserver python2.7 python-pip
 
-sudo python2.7 -m pip install jupyter 
+sudo python2.7 -m pip install jupyter pandas
 
 
 #killing services / processes
