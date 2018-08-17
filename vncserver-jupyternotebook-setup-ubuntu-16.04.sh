@@ -9,7 +9,7 @@ SCRIPT_HOME=$HOME
 
 printf "\nInstalling required packages\n" 
 
-sudo apt update && sudo apt -y install xfce4 xfce4-goodies xfonts-base xfonts-75dpi xfonts-100dpi tightvncserver python2.7 python-pip
+sudo apt update && sudo apt -y install unzip xfce4 xfce4-goodies xfonts-base xfonts-75dpi xfonts-100dpi tightvncserver python2.7 python-pip 
 
 sudo python2.7 -m pip install jupyter pandas
 
@@ -117,3 +117,16 @@ EOL"
 sudo systemctl daemon-reload \
 && sudo systemctl enable vncserver@1.service && sudo systemctl enable jupyter-notebook.service \
 && sudo systemctl start vncserver@1  && sudo systemctl start jupyter-notebook.service
+
+#setting up TWS and IBridgePy
+
+#TWS
+curl -s -O https://download2.interactivebrokers.com/installers/tws/latest/tws-latest-linux-x64.sh
+#https://download2.interactivebrokers.com/installers/tws/stable/tws-stable-linux-x64.sh
+
+chmod a+x tws-latest-linux-x64.sh
+echo "n" | ./tws-latest-linux-x64.sh
+
+#ibridgepy
+mkdir -p i-bridge-py && curl -s http://www.ibridgepy.com/wp-content/uploads/2018/08/IBridgePy_Ubuntu_Python27_64.zip -o i-bridge-py/IBridgePy_Ubuntu_Python27_64.zip
+unzip  i-bridge-py/IBridgePy_Ubuntu_Python27_64.zip -d i-bridge-py/
