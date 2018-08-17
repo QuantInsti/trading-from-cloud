@@ -128,4 +128,4 @@ echo "n" | ./tws-stable-linux-x64.sh
 
 #ibridgepy
 mkdir -p i-bridge-py && curl -s http://www.ibridgepy.com/wp-content/uploads/2018/08/IBridgePy_Ubuntu_Python27_64.zip -o i-bridge-py/IBridgePy_Ubuntu_Python27_64.zip
-unzip  i-bridge-py/IBridgePy_Ubuntu_Python27_64.zip -d i-bridge-py/
+unzip -o i-bridge-py/IBridgePy_Ubuntu_Python27_64.zip -d i-bridge-py/
