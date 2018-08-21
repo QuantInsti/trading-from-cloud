@@ -1,6 +1,9 @@
 # trading-from-cloud
 ## Setup
-### 1. You can use already build AMI available on AWS. <link>
+### 1. You can use already build AMI available on AWS.
+Password for VNC Clinet and Jupyter Notebook is :- 20QtTfC1
+
+
 ### 2. You can use script to download and install everything on your ubuntu server. (commands below)
 
 ####  a. To setup
