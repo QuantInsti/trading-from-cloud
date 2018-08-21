@@ -8,7 +8,7 @@ Password for VNC Clinet and Jupyter Notebook is :- 20QtTfC1
 
 ####  a. To setup
 
-Run the below command and enter passwords for vncserver and jupyter notebook during installation. 
+Run the below command and enter new passwords for vncserver and jupyter notebook when prompted during installation. 
 
 `bash -c "$(curl  https://raw.githubusercontent.com/QuantInsti/trading-from-cloud/master/vncserver-jupyternotebook-setup-ubuntu-16.04.sh)"` 
 
