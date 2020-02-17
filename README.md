@@ -1,6 +1,6 @@
 # trading-from-cloud
 ## Setup
-### 1. You can use already build AMI available on AWS.
+### 1. You can use already build AMI available on AWS. **(16-FEB-2020 AMI is no longer available)*
 Password for VNC Clinet and Jupyter Notebook is :- 20QtTfC1
 
 
